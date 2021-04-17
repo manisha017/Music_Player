@@ -1,0 +1,621 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Ninja Studio</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!-- fevicon -->
+        <link rel="icon" href="Static/fevicon/fevicon.PNG" type="image/x-icon"/>
+        <!-- fontawesome stylesheet -->
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+        <!-- external stylesheet -->
+        <link rel="stylesheet" type="text/css" href="styles/index.css">
+    </head> 
+    <body>
+
+        <!-- ####################-------nav-bar--------######################-->
+        <nav id="nav-bar">
+            <div id="nav-left">
+                <!-- menu button for media -->
+                <div id="menu-button" class="center-down">
+                    <input id="check-menu" type="checkbox" name="">
+                    <label for="check-menu"><i class="fa fa-bars" aria-hidden="true"></i></label>
+
+                    <!-- menu button items -->
+                    <div id="menu-button-items">
+                        <!-- menu button items logo -->
+                        <div id="logo" class="add-margin">
+                            <a href="#">
+                                <i class="fa fa-music" aria-hidden="true"></i>
+                                <div id="logo-title">
+                                    <p id="ninja-p">Ninja</p>
+                                    <p id="studio-p">Studio</p> 
+                                </div>
+                            </a>
+                        </div>
+                        <!-- menu button items favourites -->
+                        <div id="nav-favourites" class="center-down add-margin">
+                            <a href="#">
+                                <p>Favourites</p>
+                            </a>
+                        </div>
+                        <!--  menu button items bell-icon -->
+                        <div id="nav-bell-icon" class="center-down add-margin">
+                            <i class="fa fa-bell" aria-hidden="true"></i>
+                        </div>
+                        <!--  menu button items search -->
+                        <div id="search-media" class="add-margin">
+                            <input type="text" name="" placeholder="Search">
+                            <i class="fa fa-search" aria-hidden="true"></i>
+                            
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- logo -->
+                <div id="logo" class="hide">
+                    <a href="#">
+                        <i class="fa fa-music" aria-hidden="true"></i>
+                        <div id="logo-title">
+                            <p id="ninja-p">Ninja</p>
+                            <p id="studio-p">Studio</p> 
+                        </div>
+                    </a>
+                </div>
+                <!-- favourites -->
+                <div id="nav-favourites" class="center-down hide">
+                    <a href="#">
+                        <p>Favourites</p>
+                    </a>
+                </div>
+            </div>
+            <div id="nav-right">
+                <!-- search -->
+                <div id="nav-search" class="center-down hide">
+                    <div id="search-elements" >		
+                        <i class="fa fa-search" aria-hidden="true"></i>
+                        <input type="text" name="" placeholder="Search">
+                    </div>
+                </div>
+                <!-- bell-icon -->
+                <div id="nav-bell-icon" class="center-down hide bell-ring">
+                    <i class="fa fa-bell" aria-hidden="true"></i>
+                </div>
+                <!-- profile pic -->
+                <div id="profile-photo" class="center-down">
+                    <div>
+                        
+                    </div>
+                </div>
+            </div>
+        </nav>
+
+        <!-- ####################-------main--------######################-->
+        <main>
+
+            <!--******##### carousel #####*****-->
+            <section id="carousel" class="section-margins">
+                <div id="carousel-container">
+                    <div class="c1 c-img"></div>
+                    <div class="c2 c-img"></div>
+                    <div class="c3 c-img"></div>
+                </div>
+            </section>
+
+            <!--******##### latest-Releases #####*****-->
+            <section id="latest-releases" class="section-margins section-width">
+                <div id="lr-container">
+                    <!-- headings -->
+                    <header class="section-heading">
+                        <h1>Latest Releases</h1>
+                    </header>
+                    <!-- lr-tabs -->
+                    <div class="lr-tabs-container">
+                        <!-- tab1 -->
+                        <div class="lr-tab centralize-tab">
+                            <div class="lr-img" id="lr-img1"></div>
+                            <div class="lr-title">
+                                <p class="lr-song">Onism</p>
+                                <p class="lr-date">Aug 11, 2020</p>
+                            </div>
+                            <div class="lr-extras">
+                                <i class="fa fa-ellipsis-h" aria-hidden="true"></i>
+							    <p>4:44</p>
+                            </div>
+                        </div>
+                        <!-- tab2 -->
+                        <div class="lr-tab centralize-tab">
+                            <div class="lr-img" id="lr-img2"></div>
+                            <div class="lr-title">
+                                <p class="lr-song">Onism</p>
+                                <p class="lr-date">Aug 11, 2020</p>
+                            </div>
+                            <div class="lr-extras">
+                                <i class="fa fa-ellipsis-h" aria-hidden="true"></i>
+							    <p>4:44</p>
+                            </div>
+                        </div>
+                        <!-- tab3 -->
+                        <div class="lr-tab centralize-tab">
+                            <div class="lr-img" id="lr-img3"></div>
+                            <div class="lr-title">
+                                <p class="lr-song">Onism</p>
+                                <p class="lr-date">Aug 11, 2020</p>
+                            </div>
+                            <div class="lr-extras">
+                                <i class="fa fa-ellipsis-h" aria-hidden="true"></i>
+							    <p>4:44</p>
+                            </div>
+                        </div>
+                        <!-- tab4 -->
+                        <div class="lr-tab centralize-tab">
+                            <div class="lr-img" id="lr-img4"></div>
+                            <div class="lr-title">
+                                <p class="lr-song">Onism</p>
+                                <p class="lr-date">Aug 11, 2020</p>
+                            </div>
+                            <div class="lr-extras">
+                                <i class="fa fa-ellipsis-h" aria-hidden="true"></i>
+							    <p>4:44</p>
+                            </div>
+                        </div>
+
+                    </div>
+                    
+                </div>
+            </section>
+
+            <!--******##### Popular Artists #####*****-->
+            <section id="popular-artists" class="section-margins section-width">
+                <div id="pa-container">
+                    <!-- headings -->
+                    <header class="section-heading">
+                        <h1>Popular Artists</h1>
+                    </header>
+                    <!-- content -->
+                    <div class="pa-content">
+                        <!-- tab1 -->
+                        <a href="views/artist.html">
+                            <div class="pa-tab">
+                                <div class="pa-img" id="pa-img1"></div>
+                                <div class="pa-name">
+                                    <p>Ed Sheeren</p>
+                                </div>
+                            </div>
+                        </a>
+                            <!-- tab2 -->
+                        <a href="views/artist.html">
+                            <div class="pa-tab">
+                                <div class="pa-img" id="pa-img2"></div>
+                                <div class="pa-name">
+                                    <p>Cold Play</p>
+                                </div>
+                            </div>
+                        </a>
+                            <!-- tab3 -->
+                        <a href="views/artist.html">
+                            <div class="pa-tab">
+                                <div class="pa-img" id="pa-img3"></div>
+                                <div class="pa-name">
+                                    <p>Zayn</p>
+                                </div>
+                            </div>
+                        </a>
+                            <!-- tab4 -->
+                        <a href="views/artist.html">
+                            <div class="pa-tab">
+                                <div class="pa-img" id="pa-img4"></div>
+                                <div class="pa-name">
+                                    <p>Charlie Puth</p>
+                                </div>
+                            </div>
+                        </a>
+                            <!-- tab5 -->
+                        <a href="views/artist.html">
+                            <div class="pa-tab">
+                                <div class="pa-img" id="pa-img5"></div>
+                                <div class="pa-name">
+                                    <p>Imagine Dragons</p>
+                                </div>
+                            </div>
+                        </a>
+                            <!-- tab6 -->
+                        <a href="views/artist.html">
+                            <div class="pa-tab">
+                                <div class="pa-img" id="pa-img6"></div>
+                                <div class="pa-name">
+                                    <p>Bruno Mars</p>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </section>
+
+            <!--******##### Stations #####*****-->
+            <section id="stations" class="section-margins section-width">
+                <div id="st-container">
+                    <div class="st-logo"></div>
+                    <div class="st-img" id="st-img1">
+                        <p>Love</p>
+                    </div>
+                    <div class="st-img" id="st-img2">
+                        <p>Retro</p>
+                    </div>
+                    <div class="st-img" id="st-img3">
+                        <p>Chill</p>
+                    </div>
+                    <div class="st-img" id="st-img4">
+                        <p>Workout</p>
+                    </div>
+                    <div class="st-img" id="st-img5">
+                        <p>Rock</p>
+                    </div>
+                    <div class="st-img" id="st-img6">
+                        <p>Pop</p>
+                    </div>
+                </div>
+            </section>
+
+            <!--******##### Types #####*****-->
+            <section id="types" class="section-margins section-width">
+                <div id="ty-container">
+                    <div class="ty-img-container">
+                        <div class="ty-img" id="ty-img1">
+                            <p>Party</p>
+                        </div>
+                    </div>
+                    <div class="ty-img-container">
+                        <div class="ty-img" id="ty-img2">
+                            <p>Electronic</p>
+                        </div>
+                    </div>
+                    <div class="ty-img-container">
+                        <div class="ty-img" id="ty-img3">
+                            <p>Road Trip</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!--******##### Latest English #####*****-->
+            <section id="latest-english" class="section-margins section-width">
+                <div id="leh-container">
+                     <!-- headings -->
+                     <header class="section-heading">
+                        <h1>Latest English</h1>
+                    </header>
+                    <!-- content -->
+                    <div class="leh-tabs">
+                        <!-- tab1 -->
+                        <div class="leh-tab-container">
+                            <div class="leh-img" id="leh-img1">
+                                <i class="fa fa-play-circle" aria-hidden="true"></i>
+                            </div>
+                            <div class="leh-p">
+                                <p class="leh-name">Onism</p>
+                                <p class="leh-date">Aug 11, 2020</p>
+                            </div>
+                        </div>
+                        <!-- tab2 -->
+                        <div class="leh-tab-container">
+                            <div class="leh-img" id="leh-img2">
+                                <i class="fa fa-play-circle" aria-hidden="true"></i>
+                            </div>
+                            <div class="leh-p">
+                                <p class="leh-name">Onism</p>
+                                <p class="leh-date">Aug 11, 2020</p>
+                            </div>
+                        </div>
+                        <!-- tab3 -->
+                        <div class="leh-tab-container">
+                            <div class="leh-img" id="leh-img3">
+                                <i class="fa fa-play-circle" aria-hidden="true"></i>
+                            </div>
+                            <div class="leh-p">
+                                <p class="leh-name">Onism</p>
+                                <p class="leh-date">Aug 11, 2020</p>
+                            </div>
+                        </div>
+                        <!-- tab4 -->
+                        <div class="leh-tab-container">
+                            <div class="leh-img" id="leh-img4">
+                                <i class="fa fa-play-circle" aria-hidden="true"></i>
+                            </div>
+                            <div class="leh-p">
+                                <p class="leh-name">Onism</p>
+                                <p class="leh-date">Aug 11, 2020</p>
+                            </div>
+                        </div>
+                        <!-- tab5 -->
+                        <div class="leh-tab-container">
+                            <div class="leh-img" id="leh-img5">
+                                <i class="fa fa-play-circle" aria-hidden="true"></i>
+                            </div>
+                            <div class="leh-p">
+                                <p class="leh-name">Onism</p>
+                                <p class="leh-date">Aug 11, 2020</p>
+                            </div>
+                        </div>
+                        <!-- tab6 -->
+                        <div class="leh-tab-container">
+                            <div class="leh-img" id="leh-img6">
+                                <i class="fa fa-play-circle" aria-hidden="true"></i>
+                            </div>
+                            <div class="leh-p">
+                                <p class="leh-name">Onism</p>
+                                <p class="leh-date">Aug 11, 2020</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!--******##### Latest Hindi #####*****-->
+            <section id="latest-hindi" class="section-margins section-width">
+                <div id="leh-container">
+                     <!-- headings -->
+                     <header class="section-heading">
+                        <h1>Latest Hindi</h1>
+                    </header>
+                    <!-- content -->
+                    <div class="leh-tabs">
+                        <!-- tab1 -->
+                        <div class="leh-tab-container">
+                            <div class="leh-img" id="leh-img1">
+                                <i class="fa fa-play-circle" aria-hidden="true"></i>
+                            </div>
+                            <div class="leh-p">
+                                <p class="leh-name">Onism</p>
+                                <p class="leh-date">Aug 11, 2020</p>
+                            </div>
+                        </div>
+                        <!-- tab2 -->
+                        <div class="leh-tab-container">
+                            <div class="leh-img" id="leh-img2">
+                                <i class="fa fa-play-circle" aria-hidden="true"></i>
+                            </div>
+                            <div class="leh-p">
+                                <p class="leh-name">Onism</p>
+                                <p class="leh-date">Aug 11, 2020</p>
+                            </div>
+                        </div>
+                        <!-- tab3 -->
+                        <div class="leh-tab-container">
+                            <div class="leh-img" id="leh-img3">
+                                <i class="fa fa-play-circle" aria-hidden="true"></i>
+                            </div>
+                            <div class="leh-p">
+                                <p class="leh-name">Onism</p>
+                                <p class="leh-date">Aug 11, 2020</p>
+                            </div>
+                        </div>
+                        <!-- tab4 -->
+                        <div class="leh-tab-container">
+                            <div class="leh-img" id="leh-img4">
+                                <i class="fa fa-play-circle" aria-hidden="true"></i>
+                            </div>
+                            <div class="leh-p">
+                                <p class="leh-name">Onism</p>
+                                <p class="leh-date">Aug 11, 2020</p>
+                            </div>
+                        </div>
+                        <!-- tab5 -->
+                        <div class="leh-tab-container">
+                            <div class="leh-img" id="leh-img5">
+                                <i class="fa fa-play-circle" aria-hidden="true"></i>
+                            </div>
+                            <div class="leh-p">
+                                <p class="leh-name">Onism</p>
+                                <p class="leh-date">Aug 11, 2020</p>
+                            </div>
+                        </div>
+                        <!-- tab6 -->
+                        <div class="leh-tab-container">
+                            <div class="leh-img" id="leh-img6">
+                                <i class="fa fa-play-circle" aria-hidden="true"></i>
+                            </div>
+                            <div class="leh-p">
+                                <p class="leh-name">Onism</p>
+                                <p class="leh-date">Aug 11, 2020</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+
+
+
+
+
+        <!-- ####################-------aisde--------######################-->
+        <aside>
+            <section id="aside-container">
+                <!-- heading -->
+                <header id="aside-heading">
+                    <select>
+                        <option>My Playlist</option>
+                        <option>Favourites</option>
+                        <option>Queue</option>
+                    </select>
+                </header>
+
+                <!-- content -->
+                <div id="aside-content">
+                    <!-- tabs -->
+
+                    <!-- tab1 -->
+                    <div class="as-tab-container">
+                        <div class="as-img" id="as-img1">
+                            <i class="fa fa-play-circle" aria-hidden="true"></i>
+                        </div>
+                        <div class="as-title">
+                            <p class="as-name">Mirage</p>
+                            <p class="as-sub-name">Else</p>
+                            <div class="fav-hearts">
+                                <input type="checkbox" id="as-tab1">
+                                <label for="as-tab1" class="heart-icons" title="Add To Favourites">
+                                    <i class="far fa-heart heart-hollow"></i>
+								    <i class="fas fa-heart heart-solid" title="Add To Favourites"></i>
+                                </label>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- tab2 -->
+                    <div class="as-tab-container">
+                        <div class="as-img" id="as-img2">
+                            <i class="fa fa-play-circle" aria-hidden="true"></i>
+                        </div>
+                        <div class="as-title">
+                            <p class="as-name">Mirage</p>
+                            <p class="as-sub-name">Else</p>
+                            <div class="fav-hearts">
+                                <input type="checkbox" id="as-tab2">
+                                <label for="as-tab2" class="heart-icons" title="Add To Favourites">
+                                    <i class="far fa-heart heart-hollow"></i>
+								    <i class="fas fa-heart heart-solid" title="Add To Favourites"></i>
+                                </label>
+                            </div>
+                        </div>
+                    </div>
+
+                     <!-- tab3 -->
+                     <div class="as-tab-container">
+                        <div class="as-img" id="as-img3">
+                            <i class="fa fa-play-circle" aria-hidden="true"></i>
+                        </div>
+                        <div class="as-title">
+                            <p class="as-name">Mirage</p>
+                            <p class="as-sub-name">Else</p>
+                            <div class="fav-hearts">
+                                <input type="checkbox" id="as-tab3">
+                                <label for="as-tab3" class="heart-icons" title="Add To Favourites">
+                                    <i class="far fa-heart heart-hollow"></i>
+								    <i class="fas fa-heart heart-solid" title="Add To Favourites"></i>
+                                </label>
+                            </div>
+                        </div>
+                    </div>
+
+                     <!-- tab4 -->
+                     <div class="as-tab-container">
+                        <div class="as-img" id="as-img4">
+                            <i class="fa fa-play-circle" aria-hidden="true"></i>
+                        </div>
+                        <div class="as-title">
+                            <p class="as-name">Mirage</p>
+                            <p class="as-sub-name">Else</p>
+                            <div class="fav-hearts">
+                                <input type="checkbox" id="as-tab4">
+                                <label for="as-tab4" class="heart-icons" title="Add To Favourites">
+                                    <i class="far fa-heart heart-hollow"></i>
+								    <i class="fas fa-heart heart-solid" title="Add To Favourites"></i>
+                                </label>
+                            </div>
+                        </div>
+                    </div>
+
+                     <!-- tab5 -->
+                     <div class="as-tab-container">
+                        <div class="as-img" id="as-img5">
+                            <i class="fa fa-play-circle" aria-hidden="true"></i>
+                        </div>
+                        <div class="as-title">
+                            <p class="as-name">Mirage</p>
+                            <p class="as-sub-name">Else</p>
+                            <div class="fav-hearts">
+                                <input type="checkbox" id="as-tab5">
+                                <label for="as-tab5" class="heart-icons" title="Add To Favourites">
+                                    <i class="far fa-heart heart-hollow"></i>
+								    <i class="fas fa-heart heart-solid" title="Add To Favourites"></i>
+                                </label>
+                            </div>
+                        </div>
+                    </div>
+
+                     <!-- tab6 -->
+                     <div class="as-tab-container">
+                        <div class="as-img" id="as-img6">
+                            <i class="fa fa-play-circle" aria-hidden="true"></i>
+                        </div>
+                        <div class="as-title">
+                            <p class="as-name">Mirage</p>
+                            <p class="as-sub-name">Else</p>
+                            <div class="fav-hearts">
+                                <input type="checkbox" id="as-tab6">
+                                <label for="as-tab6" class="heart-icons" title="Add To Favourites">
+                                    <i class="far fa-heart heart-hollow"></i>
+								    <i class="fas fa-heart heart-solid" title="Add To Favourites"></i>
+                                </label>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- tab7 -->
+                    <div class="as-tab-container">
+                        <div class="as-img" id="as-img7">
+                            <i class="fa fa-play-circle" aria-hidden="true"></i>
+                        </div>
+                        <div class="as-title">
+                            <p class="as-name">Mirage</p>
+                            <p class="as-sub-name">Else</p>
+                            <div class="fav-hearts">
+                                <input type="checkbox" id="as-tab7">
+                                <label for="as-tab7" class="heart-icons" title="Add To Favourites">
+                                    <i class="far fa-heart heart-hollow"></i>
+								    <i class="fas fa-heart heart-solid" title="Add To Favourites"></i>
+                                </label>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- tab8 -->
+                    <div class="as-tab-container">
+                        <div class="as-img" id="as-img8">
+                            <i class="fa fa-play-circle" aria-hidden="true"></i>
+                        </div>
+                        <div class="as-title">
+                            <p class="as-name">Mirage</p>
+                            <p class="as-sub-name">Else</p>
+                            <div class="fav-hearts">
+                                <input type="checkbox" id="as-tab8">
+                                <label for="as-tab8" class="heart-icons" title="Add To Favourites">
+                                    <i class="far fa-heart heart-hollow"></i>
+								    <i class="fas fa-heart heart-solid" title="Add To Favourites"></i>
+                                </label>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </aside>
+
+
+        <!-- ####################-------footer--------######################-->
+        <footer>
+            <div class="audio-title">
+                <div class="audio-img">
+    
+                </div>
+                <div class="audio-names">
+                    <marquee direction="left" scrollamount="4">Memories</marquee>
+                    <p>Maroon 5</p>
+                </div>
+                <div class="audio-hearts">
+                    <input type="checkbox" id="music">
+                    <label for="music" class="heart-icons"> 
+                        <i class="far fa-heart heart-hollow"></i>
+						<i class="fas fa-heart heart-solid" title="Add To Favourites"></i>
+                    </label>
+                </div>
+            </div>
+            <div class="audio-container centralize-tab">
+                <audio class="audio-player" controls>
+                    <source src="Static/Audio/Maroon 5 - Memories.mp3">
+                </audio>
+            </div>
+        </footer>
+
+    </body>
+</html>
